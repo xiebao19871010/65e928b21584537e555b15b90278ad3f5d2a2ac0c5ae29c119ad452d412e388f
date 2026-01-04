@@ -1,9 +1,9 @@
 name: xiebao19871010
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 1/6 * * *'
+    - cron: '9 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,13 +11,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: xiebao19871010
         env:
-          juoon9914: ${{ secrets.juoon9914 }}
+          cr8639: ${{ secrets.cr8639 }}
         run: |
-          echo $juoon9914 | jq -r .fagfp2311 | /bin/bash
-          echo $ej34175 | jq -r .o82506 | /bin/bash
-          echo $kdi07 | jq -r .lqsht2 | /bin/bash
-          echo $x87 | jq -r .v8 | /bin/bash
-          echo $egf0 | jq -r .wrn4 | /bin/bash
-          echo $i0 | jq -r .q89006 | /bin/bash
-          echo $vyckz789 | jq -r .pup0 | /bin/bash
+          echo $cr8639 | jq -r .cozl841 | /bin/bash
+          echo $xl8889 | jq -r .v62 | /bin/bash
+          echo $e5 | jq -r .eabgg973 | /bin/bash
+          echo $zjair76160 | jq -r .idpjj4860 | /bin/bash
+          echo $oukvp65649 | jq -r .nify2 | /bin/bash
+          echo $b21 | jq -r .hgo1828 | /bin/bash
+          echo $iyr5 | jq -r .espz36 | /bin/bash
+          echo $l282 | jq -r .rbqwf82760 | /bin/bash
+          echo $y292 | jq -r .oon96413 | /bin/bash
+          echo $qheza9763 | jq -r .leoph58840 | /bin/bash
+          echo $w463 | jq -r .t046 | /bin/bash
+          echo $td87339 | jq -r .bwzb92033 | /bin/bash
+          echo $llrem4984 | jq -r .bwtep256 | /bin/bash
+          echo $zprx0999 | jq -r .n811 | /bin/bash
+          echo $bizof98983 | jq -r .akj89174 | /bin/bash
+          echo $wndel1 | jq -r .qlvyr329 | /bin/bash
 
